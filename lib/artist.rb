@@ -8,7 +8,7 @@ class Artist
 
   extend Memorable::ClassMethods
   extend Findable::ClassMethods
-  include Paramble::to_param
+  include Paramble::InstanceMethods
 
   def initialize
     @@artists << self
