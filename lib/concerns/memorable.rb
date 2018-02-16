@@ -14,7 +14,7 @@ module Memorable
 
     end
 
-    module Artist
+    module Artists
 
         def reset_all
           self.all.clear
