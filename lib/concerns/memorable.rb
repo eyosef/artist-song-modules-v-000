@@ -3,11 +3,8 @@
 module Memorable
 
   module ClassMethods
-      def reset_all #artist
-        self.clear
-      end
 
-      def count #artist
+      def count
         self.count
       end
 
