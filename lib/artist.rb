@@ -11,10 +11,10 @@ class Artist
   extend Findable::ClassMethods
   include Paramble::InstanceMethods
 
-  def initialize
-    @@artists << self
-    @songs = []
-  end
+  # def initialize
+  #   @@artists << self
+  #   @songs = []
+  # end
 
   def self.all
     @@artists
