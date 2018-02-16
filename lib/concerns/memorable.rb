@@ -8,15 +8,11 @@ module Memorable
       end
 
       def count #artist
-        self.count
+        self.all.count
       end
 
       def reset_all #songs
         @@songs.clear
-      end
-
-      def count #songs
-        self.all.count
       end
     end
 
