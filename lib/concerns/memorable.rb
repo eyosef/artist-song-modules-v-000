@@ -11,11 +11,11 @@ module Memorable
         @@artists.count
       end
 
-      def self.reset_all #songs
+      def reset_all #songs
         @@songs.clear
       end
 
-      def self.count #songs
+      def count #songs
         self.all.count
       end
     end
