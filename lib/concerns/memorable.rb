@@ -2,7 +2,7 @@
 
 module Memorable
 
-    module Songs
+    module ClassMethods
 
           def reset_all
             self.all.clear
