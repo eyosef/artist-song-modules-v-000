@@ -3,7 +3,7 @@
 module Memorable
 
   module ClassMethods
-      def reset_all
+      def reset_all #artist
         self.all.clear
       end
 
