@@ -4,7 +4,7 @@ module Memorable
 
   module ClassMethods
       def reset_all #artist
-        self.all.clear
+        self.clear
       end
 
       def count #artist
